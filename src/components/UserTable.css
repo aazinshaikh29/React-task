@@ -1,0 +1,96 @@
+/* ---------- CONTAINER ---------- */
+.user-table-container {
+  padding: 30px;
+  font-family: "Segoe UI", Arial;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* ---------- HEADING ---------- */
+.user-table-container h1 {
+  margin-bottom: 18px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* ---------- TABLE ---------- */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+/* ---------- HEADER ---------- */
+.user-table thead {
+  background: #f3f6fb;
+}
+
+.user-table th {
+  padding: 14px;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  color: #555;
+}
+
+/* ---------- ROWS ---------- */
+.user-table td {
+  padding: 14px;
+  font-size: 14px;
+  color: #444;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* Row hover */
+.user-table tbody tr:hover {
+  background: #f6faff;
+  transition: 0.2s;
+}
+
+/* ---------- INACTIVE ROW ---------- */
+.inactive-row {
+  background: #fff6f6 !important;
+}
+
+/* ---------- STATUS BADGE ---------- */
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.active {
+  background: #e9fff2;
+  color: #1f9b4a;
+  border: 1px solid #baf0d2;
+}
+
+.inactive {
+  background: #fff1f1;
+  color: #d62828;
+  border: 1px solid #ffc9c9;
+}
+
+/* ---------- ICON BUTTONS ---------- */
+.action-btn {
+  background: #f1f4ff;
+  border: 1px solid #d8e0ff;
+  padding: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.action-btn:hover {
+  background: #e5ecff;
+}
+
+.action-btn svg {
+  color: #3b5bff;
+  font-size: 18px;
+}

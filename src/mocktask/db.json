@@ -1,0 +1,16 @@
+{
+  "users": [
+    { "id": 1, "name": "Aarav Patel", "email": "aarav.patel@example.com", "role": "Admin", "status": "Active" },
+    { "id": 2, "name": "Neha Sharma", "email": "neha.sharma@example.com", "role": "User", "status": "Active" },
+    { "id": 3, "name": "Rohit Verma", "email": "rohit.verma@example.com", "role": "User", "status": "Inactive" },
+    { "id": 4, "name": "Priya Singh", "email": "priya.singh@example.com", "role": "Manager", "status": "Active" },
+    { "id": 5, "name": "Kunal Mehta", "email": "kunal.mehta@example.com", "role": "User", "status": "Active" },
+    { "id": 6, "name": "Ananya Iyer", "email": "ananya.iyer@example.com", "role": "User", "status": "Inactive" },
+    { "id": 7, "name": "Vikram Joshi", "email": "vikram.joshi@example.com", "role": "Admin", "status": "Active" },
+    { "id": 8, "name": "Sneha Kapoor", "email": "sneha.kapoor@example.com", "role": "User", "status": "Active" },
+    { "id": 9, "name": "Arjun Malhotra", "email": "arjun.malhotra@example.com", "role": "Manager", "status": "Active" },
+    { "id": 10, "name": "Pooja Nair", "email": "pooja.nair@example.com", "role": "User", "status": "Inactive" },
+    { "id": 11, "name": "Aazin Shaikh", "email": "aazin@gmail.com", "role": "User", "status": "Inactive" }
+    
+  ]
+}
