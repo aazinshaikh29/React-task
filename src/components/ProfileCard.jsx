@@ -7,7 +7,8 @@ import image4 from "../assets/profile4.png";
 const ProfileCard = () => {
   return (
     <>
-      
+      <h1 className="title">Our Team Members</h1>
+
       <div className="profile-row">
 
         <div className="profile-card">
@@ -33,8 +34,10 @@ const ProfileCard = () => {
           <h2 className="profile-name">Max</h2>
           <p className="profile-role">Backend Developer</p>
         </div>
-
-      </div>
+        
+            
+        </div>
+     
     </>
   );
 };
